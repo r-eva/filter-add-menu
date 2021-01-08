@@ -1,0 +1,57 @@
+body {
+    font-size: larger;
+}
+
+.container1 {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container2 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#menu {
+    font-weight: bold;
+    border-collapse: collapse;
+    border: 3px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+}
+
+.head {
+    border: 3px solid black;
+}
+
+#menu td {
+    font-family:  'Josefin Sans', cursive;
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#menu tr:hover {background-color: #ddd;}
+
+.btn {
+    font-size: 1.2em;
+}
+
+.search {
+    line-height: 20px;
+}
+
+input[type="text"] {
+    font-size: 1.2em;
+    font-family: 'Josefin Sans', cursive;
+}
+
+.not-found {
+    font-style: italic;
+    color: grey;
+}
