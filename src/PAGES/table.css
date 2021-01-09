@@ -18,12 +18,13 @@ body {
 }
 
 #menu {
+    table-layout: fixed;
     font-weight: bold;
     border-collapse: collapse;
     border: 3px solid black;
     margin-right: auto;
     margin-left: auto;
-    width: 300px;
+    width: 350px;
 }
 
 .head {
@@ -35,21 +36,29 @@ body {
     text-align: left;
     border: 1px solid #ddd;
     padding: 8px;
+    word-wrap: break-word;
 }
 
 #menu tr:hover {background-color: #ddd;}
 
-.btn {
-    font-size: 1.2em;
-}
-
 .search {
     line-height: 20px;
+    width: 260px;
 }
 
 input[type="text"] {
     font-size: 1.2em;
     font-family: 'Josefin Sans', cursive;
+    width: 260px;
+}
+
+.btn_wrapper {
+    width: 40px;
+    text-align: center!important;    
+}
+
+.btn {
+    font-size: 1.2em;
 }
 
 .not-found {

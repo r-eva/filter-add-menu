@@ -59,7 +59,7 @@ class table extends Component {
                         <thead className="head">
                             <tr>
                                 <td className="search"><input type='text' placeholder='Search' value={this.state.inputText} onChange={this.textInputed}/></td>
-                                <td><input className="btn" type='button' value='+' onClick={this.addItem}/></td>
+                                <td className="btn_wrapper"><input className="btn" type='button' value='+' onClick={this.addItem}/></td>
                             </tr>
                         </thead>
                         <tbody>
